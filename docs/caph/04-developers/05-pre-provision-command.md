@@ -48,7 +48,7 @@ When the container image was uploaded, you need to adapt the CAPH deployment:
         - /bin/sh
         - -c
         - cp /my-pre-provision-command.sh /shared/
-        image: ghcr.io/syself/caph-staging:pre-provision-command
+        image: ghcr.io/stasian/caph-staging:pre-provision-command
         imagePullPolicy: Always
         name: init-container
         resources: {}

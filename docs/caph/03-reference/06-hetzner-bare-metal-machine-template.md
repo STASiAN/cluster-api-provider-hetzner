@@ -125,7 +125,7 @@ spec:
       containers:
         - command:
             - /manager
-          image: ghcr.io/syself/caph:vXXX
+          image: ghcr.io/stasian/caph:vXXX
           env:
             - name: OCI_REGISTRY_AUTH_TOKEN
               valueFrom:

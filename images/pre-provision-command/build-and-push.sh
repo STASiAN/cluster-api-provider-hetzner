@@ -22,6 +22,6 @@ set -Eeuo pipefail
 
 DIR="$(dirname "$0")"
 
-docker build -t ghcr.io/syself/caph-staging:pre-provision-command "$DIR"
+docker build -t ghcr.io/stasian/caph-staging:pre-provision-command "$DIR"
 
-docker push ghcr.io/syself/caph-staging:pre-provision-command
+docker push ghcr.io/stasian/caph-staging:pre-provision-command
